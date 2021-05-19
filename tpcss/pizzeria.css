@@ -21,7 +21,7 @@ nav > ul > li :hover, nav > ul > li :active
 {
   background-color: #009900;
 }
-nav > ul > li > a
+nav ul li a
 {
   display: block;
   color: white;
@@ -30,7 +30,7 @@ nav > ul > li > a
 }
 footer > p > a
 {
-  color: 0000FF;
+  color: #0000FF;
   text-decoration: none;
   font-weight: bold;
 }
