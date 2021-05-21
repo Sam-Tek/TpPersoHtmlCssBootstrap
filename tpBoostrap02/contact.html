@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>The Wailers</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/bootstrap4/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <!-- Les trois lignes ci‑dessous sont un correctif pour que la sémantique
+  HTML5 fonctionne correctement avec les anciennes versions de
+  Internet Explorer-->
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <nav class="navbar fixed-bottom navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">The Wailers</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="presentation.html">Présentation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="discographie.html">Discographie</a>
+        </li>
+        <li class="nav-item my-2 my-lg-0">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <span class="colorgreen">
+        Babylon System
+      </span>
+    </div>
+  </nav>
+
+
+
+  <!-- Voici notre en‑tête principale utilisée dans toutes les pages
+  de notre site web -->
+  <header class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">The Wailers</h1>
+      <p class="lead">The Wailers est un groupe de reggae jamaïcain fondé en 1963 par Nesta Robert Marley</p>
+    </div>
+  </header>
+
+  <!-- Ici nous mettons le contenu de la page -->
+  <main class="container">
+
+    <!-- Il contient un article -->
+    <article>
+
+      <h2>Contact</h2>
+      <form action="#" method="post">
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" name="email" id="email" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea name="name" id="message" rows="8" cols="80" class="form-control"></textarea>
+        </div>
+        <button class="btn btn-outline-success btn-lg" type="submit">Envoyer</button>
+      </form>
+    </article>
+
+    <!-- Le contenu « à côté » peut aussi être intégré dans le contenu
+    principal -->
+    <!-- <aside>
+    <h2>En relation</h2>
+    <ul>
+    <li><a href="#">Combien j'aime être près des rivages</a></li>
+    <li><a href="#">Combien j'aime être près de la mer</a></li>
+    <li><a href="#">Bien que dans le nord de l'Angleterre</a></li>
+    <li><a href="#">Il n'arrête jamais de pleuvoir</a></li>
+    <li><a href="#">Eh bien…</a></li>
+  </ul>
+</aside> -->
+
+</main>
+
+<!-- Et voici notre pied de page utilisé sur toutes les pages du site -->
+<footer class="jumbotron">
+  <div class="container">
+    <p>©Copyright 2021. Tous droits reversés.</p>
+  </div>
+</footer>
+<script src="assets/jquery/dist/jquery.min.js"></script>
+<script src="assets/popperjs/dist/popper.min.js"></script>
+<script src="assets/bootstrap4/dist/js/bootstrap.min.js" ></script>
+</body>
+</html>

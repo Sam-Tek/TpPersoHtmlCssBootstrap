@@ -1,0 +1,40 @@
+body
+{
+  font-family: "Arial", sans-serif;
+}
+header
+{
+  font-family: 'Reggae One', "Arial", sans-serif;
+}
+footer
+{
+  font-family: 'Reggae One', "Arial", sans-serif;
+}
+.jumbotron
+{
+  background-color: rgb(255, 255, 0);
+}
+nav
+{
+background-color: #01ea24;
+}
+.colorgreen
+{
+  color: red;
+}
+h2,h3
+{
+  font-family: 'Reggae One', "Arial", sans-serif;
+}
+
+.carousel-indicators li {
+background-color:DimGray;
+}
+
+.carousel-indicators > .active {
+background-color:silver;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+background-color: silver;
+}
